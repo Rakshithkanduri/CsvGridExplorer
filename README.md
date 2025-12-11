@@ -2,7 +2,7 @@
 
 A small, production-quality .NET WinForms application that:
 
-- upload a CSV file into a grid
+- Upload a CSV file into a grid
 - Shows the clicked cell value in a separate dialog
 - Logs all errors and key events to a text file on the user's Desktop
 
@@ -124,7 +124,7 @@ dotnet run --project CsvGridViewer.App
 This will:
 
 1. Start the WinForms application.
-2. Load `Data/input.csv` (copied to the output directory at build time).
+2. Upload a .csv extention file.
 3. Display its content in a grid.
 
 ## Running from Visual Studio
