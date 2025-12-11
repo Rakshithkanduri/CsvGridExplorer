@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "CsvGridViewer.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CsvGridViewer.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CsvGridViewer.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CsvGridViewer.Core/1.0.0": {
+      "type": "project",
+      "path": "../CsvGridViewer.Core/CsvGridViewer.Core.csproj",
+      "msbuildProject": "../CsvGridViewer.Core/CsvGridViewer.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "CsvGridViewer.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\saigo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\saigo\\OneDrive\\Desktop\\CsvGridExplorer\\CsvGridViewer.App\\CsvGridViewer.App.csproj",
+      "projectName": "CsvGridViewer.App",
+      "projectPath": "C:\\Users\\saigo\\OneDrive\\Desktop\\CsvGridExplorer\\CsvGridViewer.App\\CsvGridViewer.App.csproj",
+      "packagesPath": "C:\\Users\\saigo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\saigo\\OneDrive\\Desktop\\CsvGridExplorer\\CsvGridViewer.App\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\saigo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\saigo\\OneDrive\\Desktop\\CsvGridExplorer\\CsvGridViewer.Core\\CsvGridViewer.Core.csproj": {
+              "projectPath": "C:\\Users\\saigo\\OneDrive\\Desktop\\CsvGridExplorer\\CsvGridViewer.Core\\CsvGridViewer.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

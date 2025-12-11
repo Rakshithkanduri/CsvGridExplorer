@@ -1,0 +1,2 @@
+Use any CSV file with a consistent number of columns. Example file:
+CsvGridViewer.App/Data/input.csv

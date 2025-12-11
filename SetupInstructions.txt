@@ -1,0 +1,20 @@
+Setup Instructions for CsvGridExplorer
+======================================
+
+Prerequisites
+-------------
+1. Windows operating system.
+2. .NET SDK 8.0 or later installed.
+
+Steps to Run
+------------
+1. Extract or clone the CsvGridExplorer folder.
+2. Open a terminal (Command Prompt or PowerShell) in the project root.
+3. Run:
+       dotnet restore
+4. Then build:
+       dotnet build
+5. (Optional) Run tests:
+       dotnet test ./CsvGridViewer.Core.Tests/CsvGridViewer.Core.Tests.csproj
+6. Start the application:
+       dotnet run --project CsvGridViewer.App
